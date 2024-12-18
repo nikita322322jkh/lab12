@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/glav"
+        android:title="Главное меню" />
+    <item
+        android:id="@+id/nav_worldskills"
+        android:icon="@drawable/wsr_icon"
+        android:title="Worldskills" />
+    <item
+        android:id="@+id/nav_competencies"
+        android:icon="@drawable/mob"
+        android:title="О Компетенции" />
+    <item
+        android:id="@+id/nav_programs"
+        android:icon="@drawable/po_logo"
+        android:title="Программное обеспечение" />
+</menu>

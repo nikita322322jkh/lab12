@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200px"
+            android:layout_height="300px"
+            android:contentDescription="@string/nav_header_desc"
+            android:src="@drawable/btpit" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ГБПОУ ВО\nБорисоглебский техникум\nпромышленных и\nинформационных технологий"
+            android:textSize="14sp"
+            android:gravity="start"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+</LinearLayout>
